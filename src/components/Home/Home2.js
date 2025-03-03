@@ -3,11 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub, AiOutlineMail
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiHackthebox } from "react-icons/si";
 
 function Home2() {
   return (
@@ -19,36 +18,35 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a <b className="purple">Cybersecurity Analyst</b> with expertise in
+              <b className="purple"> Cyber Threat Intelligence (CTI), Penetration Testing, and Malware Analysis.</b>
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I have a strong background in programming and security, working with:
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Java, C++, C, Python, SQL, and JavaScript. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My passion lies in exploring &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Security Research, Ethical Hacking, and Threat Hunting</b>, 
+                as well as securing & improving{" "}
                 <b className="purple">
-                  Blockchain.
+                  Enterprise Networks and Cloud Security.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I work extensively with tools like{" "}
+              <b className="purple">Burp Suite, Metasploit, Nmap, Wireshark, Nessus, OpenVAS</b>, 
+              and more for cybersecurity testing.
+              <br />
+              <br />
+              Whenever possible, I share knowledge through <b className="purple">technical write-ups</b> 
+              <space/> and contribute to security communities like{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple">Hack The Box and TryHackMe.</b>
               </i>
             </p>
           </Col>
@@ -67,7 +65,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Klein-xiao"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/xiaohai-wang/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,16 +83,28 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              {/* Email */}
+            <li className="social-icons">
+              <a
+                href="mailto:xiaohaiwang17@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiOutlineMail /> 
+              </a>
+            </li>
+            {/* HackTheBox */}
+            <li className="social-icons">
+              <a
+                href="https://app.hackthebox.com/profile/overview"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <SiHackthebox />
+              </a>
+            </li>
             </ul>
           </Col>
         </Row>
@@ -112,4 +112,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

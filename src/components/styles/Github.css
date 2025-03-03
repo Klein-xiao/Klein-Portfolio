@@ -1,0 +1,61 @@
+/* Table Styling */
+.summary-table {
+  border: 2px solid rgba(155, 126, 172, 1) !important; /* Bright purple border */
+  background: rgba(255, 255, 255, 0.08); /* Slightly lighter transparent background */
+  color: white;
+  text-align: left;
+  font-size: 1.2rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Headers */
+.purple-header {
+  background-color: rgba(155, 126, 172, 0.5); /* Darker purple */
+  color: #ffffff; /* Bright white text */
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  font-size: 1.4rem;
+  width: 25%;
+  border: 2px solid rgba(155, 126, 172, 1) !important; /* Purple table lines */
+}
+
+/* Table Data */
+.white-text {
+  color: #ffffff !important; /* Force bright white text */
+  font-weight: bold;
+  padding: 15px;
+  border: 2px solid rgba(155, 126, 172, 1) !important; /* Purple table lines */
+}
+
+/* Skill Tags Container */
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Override Bootstrap Blue */
+.bg-primary {
+  background-color: transparent !important; /* Remove default Bootstrap blue */
+}
+
+/* Skill Badges - Light Purple */
+.skill-badge {
+  background-color: rgba(200, 162, 200, 0.8) !important; /* Light Purple */
+  color: #ffffff !important; /* White Text */
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.skill-badge:hover {
+  transform: scale(1.1);
+  background-color: rgba(218, 185, 218, 1) !important; /* Slightly darker light purple */
+}
