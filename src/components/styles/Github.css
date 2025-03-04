@@ -1,7 +1,7 @@
 /* Table Styling */
 .summary-table {
   border: 2px solid rgba(155, 126, 172, 1) !important; /* Bright purple border */
-  background: rgba(255, 255, 255, 0.08); /* Slightly lighter transparent background */
+  /* background: rgba(255, 255, 255, 0.08); Slightly lighter transparent background */
   color: white;
   text-align: left;
   font-size: 1.2rem;
