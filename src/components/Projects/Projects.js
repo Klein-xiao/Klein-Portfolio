@@ -10,6 +10,7 @@ import pentesting from "../../Assets/Projects/pentesting.jpg";
 import ctiML from "../../Assets/Projects/CTI-ml.png";
 import truCTF from "../../Assets/Projects/TRU-CTF.png";
 import c2Malware from "../../Assets/Projects/C2-malware.png";
+import USB from "../../Assets/Projects/USB.jpg"
 
 function Projects() {
   return (
@@ -85,6 +86,17 @@ function Projects() {
               title="C2-Malware Analysis Framework"
               description="A command and control (C2) malware analysis framework designed to monitor and analyze threat actor behaviors in real-time."
               ghLink="https://github.com/Klein-xiao/C2-malware"
+              // demoLink="https://yourdemo.com/C2-malware"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={USB}
+              isBlog={false}
+              title="USB Data Theft Investigation - Digital Forensic Analysis"
+              description="This project showcases an advanced digital forensics and incident response investigation, focusing on a USB data theft case."
+              ghLink="https://github.com/Klein-xiao/USB-Data-Theft-Investigation"
               // demoLink="https://yourdemo.com/C2-malware"
             />
           </Col>
