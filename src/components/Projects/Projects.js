@@ -11,6 +11,7 @@ import ctiML from "../../Assets/Projects/CTI-ml.png";
 import truCTF from "../../Assets/Projects/TRU-CTF.png";
 import c2Malware from "../../Assets/Projects/C2-malware.png";
 import USB from "../../Assets/Projects/USB.jpg"
+import HTB from "../../Assets/Projects/HackTheBox.jpg"
 
 function Projects() {
   return (
@@ -50,7 +51,7 @@ function Projects() {
             <ProjectCard
               imgPath={pentesting}
               isBlog={false}
-              title="Pentesting Labs"
+              title="Vulnhub Labs"
               description="A curated collection of penetration testing challenges and solutions from Vulnhub, Hack The Box, and TryHackMe."
               ghLink="https://github.com/Klein-xiao/Vulnhub_pentest"
               // demoLink="https://yourdemo.com/pentesting-toolkit"
@@ -97,6 +98,17 @@ function Projects() {
               title="USB Data Theft Investigation - Digital Forensic Analysis"
               description="This project showcases an advanced digital forensics and incident response investigation, focusing on a USB data theft case."
               ghLink="https://github.com/Klein-xiao/USB-Data-Theft-Investigation"
+              // demoLink="https://yourdemo.com/C2-malware"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={HTB}
+              isBlog={false}
+              title="HACKTHEBOX Demos"
+              description="This project showcases my documented pentesting on HackTheBox"
+              ghLink="https://github.com/Klein-xiao/HackTheBox"
               // demoLink="https://yourdemo.com/C2-malware"
             />
           </Col>
